@@ -1,10 +1,6 @@
 <template>
-<!-- <div v-if="!allQuotes" class="spinner-border" role="status">
+<div v-if="!allQuotes" class="spinner-border" role="status">
   <span class="visually-hidden">Loading...</span>
-</div> -->
-
-<div>
-  <button @click="mostrarQuotes">sdafd</button>
 </div>
 
 <div id="carouselExample" class="carousel slide carousel-dark">
@@ -139,9 +135,6 @@ export default {
   },
   methods: {
     ...mapMutations(['tableQuotes','saveEmailQuote']),
-    mostrarQuotes(){
-      console.log(this.allQuotes);
-    },
 
     sendEmail() {
       let selectedQuote = `${this.emailQuote.text}\n ${this.emailQuote.author}`;
@@ -160,7 +153,11 @@ export default {
         });
     }
 
-  }
+  },
+  mounted() {
+      let slide = document.querySelector('.carousel-item');
+      slide.classList.add('active')
+    }
 
 
          

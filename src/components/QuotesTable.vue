@@ -27,7 +27,7 @@
                 <td class="text-center">
                     <button class="btn btn-modificar"  id="modificar" type="button">&#9998;</button>
                 </td>
-                <td class="text-center"><button class="btn btn-modificar" id="borrar" type="button" @click="deleteTableQuote(quote.author)">&#128465;</button></td>
+                <td class="text-center"><button class="btn btn-modificar" id="borrar" type="button" @click="deleteTableQuote(quote.text)">&#128465;</button></td>
             </tr>
         </tbody>
         </table>
@@ -37,7 +37,7 @@
     
     <script>
     import {mapState, mapMutations} from 'vuex';
-    import FadeLoader from 'vue-spinner/src/FadeLoader.vue'
+/*     import FadeLoader from 'vue-spinner/src/FadeLoader.vue' */
     
     export default {
       name: 'AdminTable',
@@ -47,11 +47,8 @@
       methods: {
         ...mapMutations(['deleteTableQuote']),
 
-      },
-
-
-       
-        
+      }
+      
       }
 
 

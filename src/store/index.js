@@ -20,11 +20,13 @@ export default createStore({
       alert("Quote Saved")
     },
     deleteTableQuote(state,payload){
-      state.myQuotes = state.myQuotes.filter((element)=>{
-        return element.author != payload.author;
-    });
+      let newMyQuotes = state.myQuotes.filter((element)=>(
+        element.text !== payload
+      ));
+      state.myQuotes = newMyQuotes;
     console.log(state.myQuotes)
     },
+
     saveEmailQuote(state,payload){
       state.emailQuote = payload;
     }

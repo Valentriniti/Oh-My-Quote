@@ -4,9 +4,9 @@
         <div class="row px-5 pt-5 px-md-0 text-center align-items-center">
           <h1 class="title display-1 mt-5 pt-5">Oh My Quote</h1>
         </div>
-        <div class="row px-5  px-md-0 text-center align-items-center">
+        <div class="row px-5  px-md-0 text-center  mx-auto p-3 px-5">
           <p class="mainText display-6 mb-4"> need inspiration?</p> 
-          <router-link to="/ExploreView" ><button id="startBtn" class="btn btn-warning  mx-auto p-3 px-5">Start</button></router-link>
+          <router-link to="/ExploreView" ><button id="startBtn" class="btn btn-warning mx-auto p-3 px-5 text-center">Start</button></router-link>
         </div>
       </div>
     </main>
