@@ -13,10 +13,10 @@
             <router-link to="/" class="nav-link">Home</router-link> 
           </li>
           <li class="nav-item">
-            <router-link to="/ExploreView" class="nav-link">Explore</router-link> 
+            <router-link to="/Explore" class="nav-link">Explore</router-link> 
           </li>
           <li class="nav-item">
-            <router-link to="/MyQuotesView" class="nav-link">MyQuotes</router-link> 
+            <router-link to="/MyQuotes" class="nav-link">MyQuotes</router-link> 
           </li>
         </ul>
       </div>
@@ -47,7 +47,7 @@ nav {
     
 .nav-link:hover{
         color: #F2B119 !important;
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
 .list-item{
         cursor: pointer;

@@ -3,7 +3,7 @@
   <span class="visually-hidden">Loading...</span>
 </div>
 
-<div id="carouselExample" class="carousel slide carousel-dark">
+<div id="carouselQuotes" class="carousel slide carousel-dark">
   <div class="carousel-inner vh-100">
     <!-- active item carousel -->
     <div class="carousel-item active align-content-center justify-content-center">
@@ -30,11 +30,9 @@
       <div class="col col-lg-9 col-xl-7">
         <div class="card" style="border-radius: 15px;">
           <div class="card-body p-5">
-
             <div class="text-center mb-4 pb-2">
               <i class="fa-solid fa-wand-magic-sparkles" style="color: #000000;"></i>
             </div>
-
             <figure class="text-center mb-0">
               <blockquote class="blockquote">
                 <p class="pb-3">
@@ -51,7 +49,6 @@
         </div>
       </div>
       </div>
-      
       <div class="row d-flex justify-content-center align-items-center">
         <!-- Save btn -->
         <button class="btn btn-dark col-10 col-md-4 g-3 mx-3" @click="tableQuotes({text:quote.text, author:quote.author})">Save<i class="fa-solid fa-heart mx-2" style="color: #ffffff;"></i></button>
@@ -163,3 +160,9 @@ export default {
          
 }
 </script>
+
+<style>
+#carouselQuotes{
+  min-height: 100vh;
+}
+</style>

@@ -6,7 +6,7 @@
         </div>
         <div class="row px-5  px-md-0 text-center  mx-auto p-3 px-5">
           <p class="mainText display-6 mb-4"> need inspiration?</p> 
-          <router-link to="/ExploreView" ><button id="startBtn" class="btn btn-warning mx-auto p-3 px-5 text-center">Start</button></router-link>
+          <router-link to="/Explore" ><button id="startBtn" class="btn btn-warning mx-auto p-3 px-5 text-center">Start</button></router-link>
         </div>
       </div>
     </main>
@@ -35,7 +35,7 @@
   background-size: cover;
   position: relative;
   min-height: 100%;
-  height: 70vh;
+  height: 90vh;
   margin: 0;
   box-sizing: inherit;
   
@@ -46,7 +46,7 @@
 }
 
 .title{
-  font-family: 'Comfortaa';
+  font-family: 'Comfortaa', sans-serif;
 /*   font-size: 50pt; */
   color:rgb(255, 255, 255);
 }

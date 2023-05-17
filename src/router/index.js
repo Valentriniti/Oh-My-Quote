@@ -11,13 +11,18 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/MyQuotesView',
-    name: 'MyQuotesView',
-    component: MyQuotesView
+    path: '/MyQuotes',
+    redirect: '/MyQuotes/you',
+    children:[{
+      path: '/MyQuotes/:user',
+      name: 'MyQuotes',
+      component: MyQuotesView,
+      props: true
+    }]
   },
   {
-    path: '/ExploreView',
-    name: 'ExploreView',
+    path: '/Explore',
+    name: 'Explore',
     component: ExploreView
   },
   {

@@ -1,9 +1,9 @@
 <template>
+  <div id="content-wrap">
   <NavBar />
   <router-view />
   <FooterBar/>
-
-  <!-- <router-view /> -->
+  </div>
   </template>
   
   <script>
@@ -27,5 +27,12 @@
   </script>
   
   <style>
+.app {
+position: relative;
+min-width: 100vh;
+}
 
+/* #content-wrap {
+ padding-bottom: 6rem;
+} */
   </style>
