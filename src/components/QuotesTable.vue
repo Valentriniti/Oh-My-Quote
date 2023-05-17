@@ -33,7 +33,7 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <div class="mb-2 mt-3 p-2 align-items-center" style="background-color: #fae8ae;">
+          <div class="mb-2 mt-3 p-2 align-items-center" style="background-color: #afe8e0;">
             <p class="mx-2"><em>{{ this.emailQuote.text }}</em></p>
             <p class="mx-2"><strong><em>{{ emailQuote.author }}</em></strong></p>
           </div>

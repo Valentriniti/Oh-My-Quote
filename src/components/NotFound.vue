@@ -16,11 +16,17 @@
 
 <style>
 #notFound{
-height: 400px;
-width: auto;
+    height:60vh;
+    width: auto;
 }
 
 #comeBack{
-color: #fff;
+    color: #fff;
+    font-size: large;
+}
+
+#comeBack:hover{
+    background-color: #2cb5a3;
+    border-color: #2cb5a3;
 }
 </style>

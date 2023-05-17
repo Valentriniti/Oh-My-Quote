@@ -52,7 +52,13 @@
 }
 
 #startBtn{
-/*   background-color: #F2B119; */
   color: #fff;
+  font-size: large;
+}
+
+#startBtn:hover{
+  background-color: #2cb5a3;
+  border-color: #2cb5a3;
+
 }
   </style>
