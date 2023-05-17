@@ -2,7 +2,7 @@
   <div v-if="!allQuotes" class="spinner-border" role="status">
     <span class="visually-hidden">Loading...</span>
   </div>
-  
+
   <div id="carouselExample" class="carousel slide carousel-dark">
     <div class="carousel-inner vh-100">
       <!-- active item carousel -->
@@ -137,7 +137,7 @@
       ...mapMutations(['tableQuotes','saveEmailQuote']),
   
       sendEmail() {
-        let selectedQuote = `${this.emailQuote.text}\n ${this.emailQuote.author}`;
+        let selectedQuote = `"${this.emailQuote.text}"\n ${this.emailQuote.author}`;
         emailjs.send("service_fer81tg","template_7r5ia5r",{
           to_name: this.friendsName,
           from_name:this.name,

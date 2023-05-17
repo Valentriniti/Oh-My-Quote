@@ -15,16 +15,27 @@ export default createStore({
       state.allQuotes = payload;
     },
     tableQuotes(state,payload) { 
+      let verificar = false;
+      state.myQuotes.forEach((e) => {
+        if (e.text == payload.text) {
+          verificar = true;
+          alert('Quote already saved');
+        return false;
+        }
+        else {
+          verificar = false;
+        }
+      });
+      if (!verificar) {
       state.myQuotes.push(payload);
-      console.log (state.myQuotes);
       alert("Quote Saved")
+    }
     },
     deleteTableQuote(state,payload){
       let newMyQuotes = state.myQuotes.filter((element)=>(
         element.text !== payload
       ));
       state.myQuotes = newMyQuotes;
-    console.log(state.myQuotes)
     },
 
     saveEmailQuote(state,payload){
@@ -40,7 +51,7 @@ export default createStore({
         let promise = await fetch("https://type.fit/api/quotes")
         let quotes = await promise.json();
         commit('fillQuotes',quotes)
-        console.table(quotes)
+/*         console.table(quotes) */
   
       } catch (error) {
         console.log(error)

@@ -88,7 +88,7 @@
         ...mapMutations(['deleteTableQuote', 'saveEmailQuote']),
   
       sendEmail() {
-        let selectedQuote = `${this.myQuotes.text}\n ${this.myQuotes.author}`;
+        let selectedQuote = `${this.emailQuote.text}\n ${this.emailQuote.author}`;
         emailjs.send("service_fer81tg","template_7r5ia5r",{
           to_name: this.friendsName,
           from_name:this.name,
