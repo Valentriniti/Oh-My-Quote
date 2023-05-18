@@ -26,12 +26,12 @@
       <div class="carousel-item" v-for="quote in allQuotes" :key="quote.text">
         <section class="vh-100" style="background-color: #eee;">
         <div class="container py-5 h-100">
-        <div class="row d-flex justify-content-center align-items-center mb-5">
+        <div class="row d-flex justify-content-center align-items-center mb-2">
         <div class="col col-lg-9 col-xl-7">
           <div class="card" style="border-radius: 15px;">
-            <div class="card-body p-5">
+            <div class="card-body p-4">
   
-              <div class="text-center mb-4 pb-2">
+              <div class="text-center mb-2 pb-1">
                 <i class="fa-solid fa-wand-magic-sparkles" style="color: #000000;"></i>
               </div>
   
@@ -54,10 +54,10 @@
         
         <div class="row d-flex justify-content-center align-items-center">
           <!-- Save btn -->
-          <button class="btn btn-dark col-10 col-md-4 g-3 mx-3" @click="tableQuotes({text:quote.text, author:quote.author})">Save<i class="fa-solid fa-heart mx-2" style="color: #ffffff;"></i></button>
+          <button class="btn btn-dark col-10 col-md-3 g-3 mx-3" @click="tableQuotes({text:quote.text, author:quote.author})">Save<i class="fa-solid fa-heart mx-2" style="color: #ffffff;"></i></button>
           
           <!-- Send btn trigger modal -->
-          <button class="btn btn-dark col-10 col-md-4 g-3 mx-3" @click="saveEmailQuote({text:quote.text, author:quote.author})" data-bs-toggle="modal" data-bs-target="#sendModal">Send<i class="fa-solid fa-envelope-open mx-3" style="color: #ffffff;"></i> </button>
+          <button class="btn btn-dark col-10 col-md-3 g-3 mx-3" @click="saveEmailQuote({text:quote.text, author:quote.author})" data-bs-toggle="modal" data-bs-target="#sendModal">Send<i class="fa-solid fa-envelope-open mx-3" style="color: #ffffff;"></i> </button>
         </div>
         </div>
         </section>

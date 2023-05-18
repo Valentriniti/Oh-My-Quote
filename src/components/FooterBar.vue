@@ -1,5 +1,5 @@
 <template>
-    <footer id="footerQuote">
+    <footer id="footerQuote" class="fixed-bottom">
         <img src="../assets/1bubble-speech.png" alt="" width="25">
         <div class="d-flex justify-content-center mt-3">
             <p>Oh My Quote - <a href="https://github.com/Valentriniti/Oh-My-Quote" id="github">Valentina Roco</a> - 2023</p>
@@ -16,7 +16,7 @@
 <style>
 
 #footerQuote{
-    position: absolute;
+
     background-color: #000000;
     padding: 15px;
     text-align: center;

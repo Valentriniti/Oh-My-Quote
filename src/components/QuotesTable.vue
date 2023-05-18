@@ -116,9 +116,11 @@
       .table.table-bordered{
         font-family: 'Comfortaa', sans-serif;
         margin-bottom: 5em;
+
       }
       .contenedorTabla{
         max-width: 99vw;
+        padding-bottom: 5em;
       }
 
       .btn.btn-crear,.btn.btn-modificar{
