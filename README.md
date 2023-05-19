@@ -114,7 +114,7 @@ mounted() {
       props: true
     }]
   },
-
+```
 > Ejemplo de URL de MyQuotes, 'you' puede ser cambiado manualmente como parámetro en el navegador
 para que el mensaje en MyQuotesView cambie sengún lo ingresado en [src/views/MyQuotesView.vue ](src/views/MyQuotesView.vue) (línea 5)
 ```
@@ -171,7 +171,7 @@ tableQuotes(state,payload) {
 > Uso de actions del store 'vuex' en [src/App.vue](src/App.vue) (línea 10 y 20)
 ```js
   import { mapActions } from "vuex";
-```
+...
 computed: {
     ...mapActions(['loadQuotes'])
 },
@@ -193,7 +193,7 @@ async mounted() {
     fillQuotes(state, payload) {
       state.allQuotes = payload;
     },
-
+```
 
   ### 5. Estructura de archivos y carpetas
   
