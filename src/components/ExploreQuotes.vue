@@ -1,8 +1,11 @@
 <template>
-  <div v-if="!allQuotes" class="spinner-border" role="status">
-    <span class="visually-hidden">Loading...</span>
-  </div>
-
+<!--spinner loading for fetch -->
+<div class="d-flex justify-content-center" v-if="!allQuotes" >
+    <div class="spinner-border text-warning m-5" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+</div>
+<div v-else>
   <div id="carouselExample" class="carousel slide carousel-dark">
     <div class="carousel-inner vh-100">
       <!-- active item carousel -->
@@ -73,7 +76,7 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  
+</div>
   <!-- Modal send-->
   <div class="modal fade" id="sendModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable">
