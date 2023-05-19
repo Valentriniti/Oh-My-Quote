@@ -10,6 +10,13 @@ npm install
 npm run serve
 ```
 
+## Imágenes Freepik utilizadas:
+```
+* https://www.freepik.es/vector-gratis/fondo-estilo-memphis-formas-fluidas-abstractas_14649424.htm#query=design%20background&position=0&from_view=search&track=ais
+
+* https://www.freepik.es/vector-gratis/error-404-hecho-mano_1587605.htm#page=2&query=404%20not%20found&position=13&from_view=search&track=ais
+```
+
 ## Características:
 
 * Maquetación con HTML y CSS
@@ -209,12 +216,4 @@ async mounted() {
     │   ├── App.vue             # Archivo base de carga de vistas, componentes y módulos
     │   └── main.js             # Archivo base de carga de scripts
     └── ...
-
-```
-
-## Imágenes Freepik utilizadas:
-```
-* https://www.freepik.es/vector-gratis/fondo-estilo-memphis-formas-fluidas-abstractas_14649424.htm#query=design%20background&position=0&from_view=search&track=ais
-
-* https://www.freepik.es/vector-gratis/error-404-hecho-mano_1587605.htm#page=2&query=404%20not%20found&position=13&from_view=search&track=ais
 ```
