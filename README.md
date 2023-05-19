@@ -123,7 +123,7 @@ http://localhost:8080/MyQuotes/Valentina <-- Modifica contenido etiqueta <h5> de
 ```
 ```html
 <h5 v-if="user" class="mb-3" >Heeeeey {{ user }}, here are the quotes you saved<i class="fa-regular fa-face-smile mx-2" style="color: #000000;"></i>:</h5>
-
+```
 
 ### 3. Programación con JavaScript
 
@@ -209,6 +209,7 @@ async mounted() {
     │   ├── App.vue             # Archivo base de carga de vistas, componentes y módulos
     │   └── main.js             # Archivo base de carga de scripts
     └── ...
+
 ```
 
 ## Imágenes Freepik utilizadas:
