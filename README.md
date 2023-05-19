@@ -1,5 +1,5 @@
 # Oh My Quote
-Inspirate con frases célebres de diversos autores y compartelas con tus amigos
+Inspírate con frases célebres de diversos autores y compartelas con tus amigos
 [https://github.com/Valentriniti/Oh-My-Quote](https://github.com/Valentriniti/Oh-My-Quote)
 
 ## Instalación del proyecto
