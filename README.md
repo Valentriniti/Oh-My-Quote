@@ -1,4 +1,5 @@
 # Oh My Quote
+Inspirate con frases célebres de diversos autores y compartelas con tus amigos
 
 ## Instalación del proyecto
 ```
