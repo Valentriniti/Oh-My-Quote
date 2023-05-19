@@ -213,7 +213,8 @@ async mounted() {
 ```
 
 ## Imágenes Freepik utilizadas:
-
+```
 * https://www.freepik.es/vector-gratis/fondo-estilo-memphis-formas-fluidas-abstractas_14649424.htm#query=design%20background&position=0&from_view=search&track=ais
 
 * https://www.freepik.es/vector-gratis/error-404-hecho-mano_1587605.htm#page=2&query=404%20not%20found&position=13&from_view=search&track=ais
+```
