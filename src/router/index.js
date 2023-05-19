@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import MyQuotesView from '../views/MyQuotesView.vue'
 import ExploreView from '../views/ExploreView.vue'
-import NotFound from '../components/NotFound.vue'
+import NotFoundView from '../views/NotFoundView.vue'
 
 const routes = [
   {
@@ -27,7 +27,7 @@ const routes = [
   },
   {
     path: '/:NotFound',
-    component: NotFound
+    component: NotFoundView
   },
   
 ]

@@ -1,12 +1,12 @@
 <template>
   <div id="content-wrap">
-  <NavBar />
-  <router-view />
-  <FooterBar/>
+    <NavBar />
+    <router-view />
+    <FooterBar/>
   </div>
-  </template>
+</template>
   
-  <script>
+<script>
   import { mapActions } from "vuex";
   import NavBar from "@/components/NavBar.vue"
   import FooterBar from "@/components/FooterBar.vue"
@@ -24,15 +24,5 @@
       await this.loadQuotes;
     } 
   }
-  </script>
+</script>
   
-  <style>
-.app {
-position: relative;
-min-width: 100vh;
-}
-
-/* #content-wrap {
- padding-bottom: 6rem;
-} */
-  </style>

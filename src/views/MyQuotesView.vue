@@ -20,4 +20,4 @@ import QuotesTable from '@/components/QuotesTable.vue';
           QuotesTable,
     }
       }
-      </script>
+</script>

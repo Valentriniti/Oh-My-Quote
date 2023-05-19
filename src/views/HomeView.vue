@@ -13,32 +13,22 @@
 </template>
     
 <script>
- 
   export default {
   name: "Home-View",
     
-  }
-    
+  }  
 </script>
     
 <style>
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-}
-
 #main{
 /*   <a href="https://www.freepik.es/vector-gratis/fondo-estilo-memphis-formas-fluidas-abstractas_14649424.htm#query=design%20background&position=0&from_view=search&track=ais">Imagen de starline</a> en Freepik */
-  background-image:url(../assets/SL_043021_42650_23.jpg);
+  background-image:url(../assets//home-background.jpg);
   background-size: cover;
   position: relative;
   min-height: 100%;
   height: 90vh;
   margin: 0;
   box-sizing: inherit;
-  
 }
 
 .mainText{
@@ -47,7 +37,6 @@
 
 .title{
   font-family: 'Comfortaa', sans-serif;
-/*   font-size: 50pt; */
   color:rgb(255, 255, 255);
 }
 
@@ -59,6 +48,5 @@
 #startBtn:hover{
   background-color: #2cb5a3;
   border-color: #2cb5a3;
-
 }
   </style>

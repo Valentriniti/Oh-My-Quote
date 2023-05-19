@@ -22,16 +22,12 @@
       </div>
     </div>
   </nav>
-
 </template>
 
 <script>
-
 export default {
   name: 'NavBar',
-
 }
-
 </script>
 
 <style>
@@ -41,20 +37,16 @@ nav {
 }
 
 .nav-link{
-        color: rgb(255, 255, 255) !important;
-        transition: all 0.5s ease;
-    }
+  color: rgb(255, 255, 255) !important;
+  transition: all 0.5s ease;
+}
     
 .nav-link:hover{
-        color: #F2B119 !important;
-        transform: scale(1.1);
-    }
+  color: #F2B119 !important;
+  transform: scale(1.1);
+}
+
 .list-item{
-        cursor: pointer;
-    }
-    #userLogin{
-      color: rgb(255, 255, 255);
-    }
-
-
+  cursor: pointer;
+}
 </style>

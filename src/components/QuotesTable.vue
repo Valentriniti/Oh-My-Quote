@@ -23,8 +23,7 @@
     </table>
   </div>
 
-
-   <!-- Modal send-->
+  <!-- Modal send-->
    <div class="modal fade" id="sendTableModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable">
       <div class="modal-content">
@@ -61,16 +60,15 @@
       </div>
     </div>
   </div>
-  
 </template>
     
 <script>
-    import {mapState, mapMutations} from 'vuex';
-    import emailjs from '@emailjs/browser';
+  import {mapState, mapMutations} from 'vuex';
+  import emailjs from '@emailjs/browser';
     
-    export default {
-      name: 'AdminTable',
-      data(){
+  export default {
+    name: 'AdminTable',
+    data(){
       return {
         name:'',
         friendsName:'',
@@ -80,12 +78,12 @@
       };
     },
 
-
-      computed: {
-        ...mapState(['myQuotes','emailQuote'])
-      },
-      methods: {
-        ...mapMutations(['deleteTableQuote', 'saveEmailQuote']),
+    computed: {
+      ...mapState(['myQuotes','emailQuote'])
+    },
+      
+    methods: {
+      ...mapMutations(['deleteTableQuote', 'saveEmailQuote']),
   
       sendEmail() {
         let selectedQuote = `${this.emailQuote.text}\n ${this.emailQuote.author}`;
@@ -105,32 +103,33 @@
       },
   
     },
-      }
+  }
 </script>
     
 <style>
-      .container{
-        font-family: 'Montserrat', sans-serif;
-      }
+  .container{
+    font-family: 'Montserrat', sans-serif;
+  }
 
-      .table.table-bordered{
-        font-family: 'Comfortaa', sans-serif;
-        margin-bottom: 5em;
+  .table.table-bordered{
+    font-family: 'Comfortaa', sans-serif;
+    margin-bottom: 5em;
+  }
 
-      }
-      .contenedorTabla{
-        max-width: 99vw;
-        padding-bottom: 5em;
-      }
+  .contenedorTabla{
+    max-width: 99vw;
+    padding-bottom: 5em;
+  }
 
-      .btn.btn-crear,.btn.btn-modificar{
-              background-color: #2cb5a3;
-              font-family: 'Montserrat', sans-serif;
-              margin: 0;
-          }
-      .btn.btn-modificar:hover{
-              background-color: #F2B119;
+  .btn.btn-crear,.btn.btn-modificar{
+    background-color: #2cb5a3;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+  }
 
-          }
+  .btn.btn-modificar:hover{
+    background-color: #F2B119;
+
+  }
 
 </style>
