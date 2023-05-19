@@ -9,7 +9,7 @@
           <router-link to="/Explore" ><button id="startBtn" class="btn btn-warning mx-auto p-3 px-5 text-center">Start</button></router-link>
         </div>
       </div>
-    </main>
+  </main>
 </template>
     
 <script>
@@ -21,7 +21,6 @@
     
 <style>
 #main{
-/*   <a href="https://www.freepik.es/vector-gratis/fondo-estilo-memphis-formas-fluidas-abstractas_14649424.htm#query=design%20background&position=0&from_view=search&track=ais">Imagen de starline</a> en Freepik */
   background-image:url(../assets//home-background.jpg);
   background-size: cover;
   position: relative;

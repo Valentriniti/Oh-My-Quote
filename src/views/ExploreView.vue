@@ -1,7 +1,7 @@
 <template>
-    <section>
-            <ExploreQuotes/> 
-    </section>
+    <main>
+        <ExploreQuotes/> 
+    </main>
 </template>
 
 <script>
